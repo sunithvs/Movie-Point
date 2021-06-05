@@ -1,0 +1,88 @@
+.container {
+  height: 50rem;
+  position: relative;
+  top: 8.4rem;
+  margin-bottom: 10rem;
+}
+.content {
+  align-items: center;
+  position: absolute;
+  left: 0%;
+  width: 40%;
+  height: 100%;
+  padding-top: 13rem;
+  padding-left: 7rem;
+}
+
+.content h1 {
+  text-align: center;
+  font-size: 4.2rem;
+  font-weight: 500;
+  margin-bottom: 2rem;
+}
+
+.content h3 {
+  text-align: center;
+  margin-top: 3rem;
+  font-size: 2.4rem;
+  font-weight: lighter;
+  color: rgb(165, 144, 144);
+}
+.bur{
+  margin-top: 5rem;
+  width:fit-content;
+  height:fit-content;
+  margin-left: auto;
+  margin-right: auto;
+}
+.signin-btn {
+  float: right;
+  width: 28rem;
+  height: 5.5rem;
+  background-color: rgb(25, 116, 168);
+  border: 0;
+  color: white;
+  font-size: 1.7rem;
+  cursor: pointer;
+}
+
+.cover {
+  position: absolute;
+  right: 0%;
+  background-image: url("banner.jpg");
+  width: 55%;
+  height: 100%;
+}
+
+.gradient {
+  background-image: linear-gradient(to right, rgb(0, 0, 0), rgba(0, 0, 0, 0));
+  width: 10rem;
+  height: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+  .container {
+    top: 6rem;margin-bottom: 30rem;
+  }
+  .cover {
+    width: 100%;
+    top: 0;
+    height: 40rem;
+  }
+  .content {
+    top: 35rem;
+    width: 100%;
+    padding-left:0%;
+  }
+  .gradient {
+    background-image: linear-gradient(to top, rgb(0, 0, 0), rgba(0, 0, 0, 0));
+    position: absolute;
+    width: 100%;
+    height: 10rem;
+    bottom: 0;
+  }
+  .signin-btn{
+    margin-left: 15%;
+    left: 0;
+  }
+}

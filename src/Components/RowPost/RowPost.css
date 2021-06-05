@@ -1,0 +1,56 @@
+.row {
+  margin-left: 6rem;
+  position: relative;
+  top: 10rem;
+  color: white;
+  margin-bottom: 10rem;
+}
+.posters {
+  display: flex;
+  overflow-x: scroll;
+  overflow-y: hidden;
+}
+.posters::-webkit-scrollbar {
+  position: absolute;
+  bottom: 0;
+  background-color: rgba(156, 23, 23, 0.753);
+}
+
+.posters::-webkit-scrollbar-thumb {
+  background: #257dca;
+  border-radius: 3rem;
+}
+.row h1 {
+  text-align: center;
+  font-size: 4rem;
+  color: rgb(247, 36, 36);
+  margin-bottom: 3rem;
+}
+.img {
+  cursor: pointer;
+  width: 50em;
+  margin-bottom: 2rem;
+}
+.poster {
+  margin-right: 4rem;
+}
+
+.img:hover {
+  transform: scale(1.05);
+}
+
+.poster h2 {
+  text-align: center;
+  color: white;
+  font-size: 3rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .row {
+    top: 17rem;
+    margin-left: 2rem;
+  }
+  .img {
+    width: 35rem;
+  }
+}

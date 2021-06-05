@@ -1,0 +1,55 @@
+.navbar {
+  z-index: 1;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 8.4rem;
+  background-color: #0f171e;
+}
+
+.logo {
+  position: absolute;
+  left: 0;
+  padding: 2.5rem;
+  display: flex;
+}
+
+h1 {
+  font-size: 2.5em;
+  font-weight: bold;
+}
+
+.sign_in {
+  padding-right: 3rem;
+  padding-top: 3rem;
+  position: absolute;
+  right: 0;
+  display: flex;
+  color: rgb(201, 208, 209);
+}
+
+h2 {
+  font-size: 2em;
+  font-weight: 300;
+  margin-right: 2rem;
+}
+
+.fa,
+.fas {
+  font-size: 2.5rem;
+  font-weight: 900;
+  margin-top: -0.1rem;
+  margin-right: 1rem;
+}
+@media only screen and (max-width: 600px) {
+  .navbar {
+    height: 6rem;
+  }
+  .logo {
+    padding-top: 1.3rem;
+  }
+  .sign_in {
+    padding-top: 1.5rem;
+    padding-right: 1rem;
+  }
+}
